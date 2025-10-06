@@ -1,0 +1,36 @@
+:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --completed-gradient: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    --ongoing-gradient: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+}
+
+.status-badge {
+    transition: all 0.3s ease;
+}
+
+.empty-state {
+    opacity: 0.6;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Smooth transitions for dark mode */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
