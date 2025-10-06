@@ -47,26 +47,23 @@ Easily add, organize, and manage your projects — all in one place.
 
 💡 Future Enhancements
 
-Add a backend with database support (Firebase / Node.js)
+*Add a backend with database support (Firebase / Node.js)
+*User authentication system
+*Project progress tracking and reminders
+*Export project data as a report
 
-User authentication system
-
-Project progress tracking and reminders
-
-Export project data as a report
+---
 
 📚 Learning Takeaways
 
-This project helped me strengthen my skills in:
+*This project helped me strengthen my skills in:
+*DOM manipulation with JavaScript
+*Responsive design using Tailwind CSS
+*Implementing Dark Mode and filters
+*Data persistence with LocalStorage
 
-DOM manipulation with JavaScript
-
-Responsive design using Tailwind CSS
-
-Implementing Dark Mode and filters
-
-Data persistence with LocalStorage
+---
 
 🧑‍💻 Author
 
-Gaurav Shirsath
+    Gaurav Shirsath
